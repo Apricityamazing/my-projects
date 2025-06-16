@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <header id="header">
+    <nav id="nav-bar">
+        <div class="nav-div"> <a class="nav-link" href="#interest-form">Interest Form</a> </div>
+     <div class="nav-div"> <a class="nav-link" href="#video">Product Video</a> </div>
+     <div class="nav-div"> <a class="nav-link" href="#header-img">Photo</a>
+     </div>
+    </nav>
+    <div class="container">
+    <div class="header-column">
+<img id="header-img" class="header-img" src="https://i.ytimg.com/vi/fhoFTPRsmOk/maxresdefault.jpg"/>
+</div>
+<div class="product-video">
+<iframe  id="video" width="160" height="90" src="https://www.youtube.com/embed/fhoFTPRsmOk?si=iZi6AunBhD1SbYBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+</div>
+<div class="form">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <fieldset id="interest-form">
+      <legend>Interest Form:</legend>
+      <div class="space"></div>
+      <div class="border">
+      <label for="fname">First Name:</label>
+    <input id="fname" name="fname" type="text" placeholder="John"><br>
+    </div>
+    <div class="space"></div>
+    <div class="border">
+    <label for="lname">Last Name:</label>
+    <input id="lname" type="text" name="lname" placeholder="Doe"><br>
+    </div>
+    <div class="space"></div>
+    <div class="border">
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="jjhassy@gmail.com"><br>
+    </div class="border">
+    <div class="submit-button">
+    <input class="submit" id="submit" type="submit" name="submit" value="Submit">
+    </div>
+    </fieldset>
+    </form>
+  </div>
+</div>
+</header>
+  </html>

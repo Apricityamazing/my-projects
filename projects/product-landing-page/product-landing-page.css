@@ -1,0 +1,63 @@
+html {
+  background: #e7c9a9;
+}
+.header-img {
+  display: block;
+  height: 270px;
+  width: 480px;
+  text-align: center;
+  margin: auto;
+}
+.container {
+  display: grid;
+}
+.product-video {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+.submit {
+  display: block;
+  margin: auto;
+}
+.submit-button {
+  display: block;
+  padding-top: 7px;
+}
+ #fname, #lname,#email {
+  display: block;
+  float: right;
+}
+.border {
+  display: block;
+  border: 1px solid black;
+  padding: 3px;
+}
+.space {
+  display: block;
+  padding: 3px;
+}
+#nav-bar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+.nav-div {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  float: left;
+ }
+.nav-link {
+  display: block;
+  background-color: #aaaaaa;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 10px) {
+  html {
+    display: none
+  }
+}
