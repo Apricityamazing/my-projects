@@ -1,0 +1,19 @@
+h1, p {
+text-align: center;
+}
+label[id="email-label"] {
+display: block;
+}
+body {
+font-family: Impact;
+}
+input[type="number"] {
+ width: 95px;
+}
+label {
+ padding: 1em;
+}
+input[class="yes"] {
+ width: 100%;
+ margin: 10px 0 0 0;
+}
