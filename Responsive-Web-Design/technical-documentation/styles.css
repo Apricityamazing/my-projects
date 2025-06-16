@@ -1,0 +1,63 @@
+h1 {
+  margin: 0;
+}
+.subheader {
+  padding: 10px;
+}
+.center {
+  text-align: center;
+}
+#formula {
+  padding: 50px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 25px;
+}
+img[class="formula"]{
+  width: 20%;
+}
+img[class="benefits"]{
+  width: 30%;
+}
+img[class="risks"] {
+  width: 20%;
+}
+header {
+  font-size: 25px;
+}
+html {
+  background: linear-gradient(rgb(100, 0,175) 10%, rgb(195, 12, 192) 90%, rgb(100,0,175) 100%);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.main-section {
+  border-bottom: 4px double;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+li a {
+  text-align: center;
+  float: none;
+  display: block;
+  padding: 10px;
+  border: 1px solid rgb(6, 6, 6)
+}
+.navbar ul {
+  width: 60px;
+}
+a {
+  color: rgb(0, 0, 0)
+}
+li a:hover {
+  color: rgba(174, 241, 31, 0.957);
+}
+@media {
+
+}
